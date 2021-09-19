@@ -1,0 +1,12 @@
+import { Component, Input, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-notifications-button',
+  templateUrl: './notifications-button.component.html',
+  styleUrls: ['./notifications-button.component.scss'],
+})
+export class NotificationsButtonComponent implements OnInit {
+  constructor() {}
+  @Input() count = 0;
+  ngOnInit(): void {}
+}
